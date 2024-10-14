@@ -1,11 +1,17 @@
 {
-  "name": "expressjs",
-  "version": "1.0.0",
-  "description": "ExpressJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Zakir Matloob",
-  "license": "ISC"
+    "name": "expressjs",
+    "version": "1.0.0",
+    "description": "ExpressJS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Zakir Matloob",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    },
+    "dependencies": {
+        "express": "^4.21.1"
+    }
 }
